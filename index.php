@@ -30,7 +30,7 @@
           <div ng-app ng-init="checked = false">
 
               <!-- SignIn -->
-              <form class="form-signin" action="function.php" method="post" name="form">
+              <form class="form-signin" action="views/function.php" method="post" name="form">
                 <label for="dlno">Email Address</label>
                   <input class="form-styling" type="text" name="email" placeholder="Enter your email address" required/>
                 <label for="password">Password</label>
@@ -40,7 +40,7 @@
 
 
               <!-- SignUp -->
-              <form class="form-signup" action="function.php" method="post" name="form">
+              <form class="form-signup" action="views/function.php" method="post" name="form">
                 <label for="fullname">Full name</label>
                   <input class="form-styling" type="text" name="name" placeholder="Enter your full name" required/>
                 <label for="email">Email</label>
