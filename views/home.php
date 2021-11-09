@@ -11,10 +11,10 @@
   </head>
 
   <?php
-   $conn =mysqli_connect("localhost", "root","","najj");
+   // $conn =mysqli_connect("localhost", "root","","najj");
 
   //Remote Database
-//  $conn =mysqli_connect("remotemysql.com", "4yMzXaBzd2","FSD11NaNgZ","4yMzXaBzd2");
+ $conn =mysqli_connect("remotemysql.com", "4yMzXaBzd2","FSD11NaNgZ","4yMzXaBzd2");
   session_start();
   if (!(isset($_SESSION['email']))) {
       session_destroy();
