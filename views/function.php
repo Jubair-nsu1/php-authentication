@@ -1,9 +1,9 @@
 <?php
 
-// $conn =mysqli_connect("localhost", "root","password","najj");
+ $conn =mysqli_connect("localhost", "root","","najj");
 
 //Remote Database
-$conn =mysqli_connect("remotemysql.com", "4yMzXaBzd2","FSD11NaNgZ","4yMzXaBzd2");
+//$conn =mysqli_connect("remotemysql.com", "4yMzXaBzd2","FSD11NaNgZ","4yMzXaBzd2");
 
 if (isset($_POST['register_submit'])) {
     $name = $_POST['name'];

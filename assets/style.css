@@ -263,6 +263,26 @@ textarea:focus {
     transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s
 }
 
+.btn-google {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 8px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    background-color: Red;
+    left: 0px;
+    top: 0px;
+    transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s
+}
+
+
 .btn-animate-grow {
     width: 130%;
     height: 625px;
@@ -338,20 +358,6 @@ a.btn-signin:hover {
     opacity: 1
 }
 
-.profile-photo {
-    height: 125px;
-    width: 125px;
-    position: relative;
-    border-radius: 70px;
-    left: 155px;
-    top: -1000px;
-    background: url(https://img.icons8.com/bubbles/100/000000/user.png);
-    background-size: 100% 135%;
-    background-position: 100% 100%;
-    opacity: 0;
-    transition: top 1.5s ease 0.35s, opacity .75s ease .5s;
-    border: solid 3px #ffffff
-}
 
 .profile-photo-down {
     top: -636px;
@@ -397,28 +403,4 @@ a.btn-goback:hover {
     background-color: #0F4FE6;
     transition: all .5s;
     color: #ffffff
-}
-
-#refresh {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #ffffff;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
-    padding: 13px 0 0 13px
-}
-
-.refreshicon {
-    fill: #d3d3d3;
-    transform: rotate(0deg);
-    transition: fill .25s ease, transform .25s ease
-}
-
-.refreshicon:hover {
-    cursor: pointer;
-    fill: #1059FF;
-    transform: rotate(180deg)
 }
