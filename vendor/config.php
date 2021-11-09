@@ -15,7 +15,7 @@ $google_client->setClientId('1018309636995-303e6fg79ffacadapf18u4s7ciagfnsj.apps
 $google_client->setClientSecret('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');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://localhost/Sample-Project/index.php');
+$google_client->setRedirectUri('https://jubair-sample.herokuapp.com/index.php');
 
 //
 $google_client->addScope('email');
